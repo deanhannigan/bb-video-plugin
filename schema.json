@@ -1,0 +1,58 @@
+{
+  "type": "component",
+  "metadata": {},
+  "schema": {
+    "name": "budi-video",
+    "friendlyName": "budi-video",
+    "description": "Embedded video component. Youtube only for now",
+    "icon": "VideoOutline",
+    "settings": [
+      {
+        "type": "text",
+        "key": "videoUrl",
+        "label": "Video URL"
+      },
+      {
+        "type": "text",
+        "key": "thumbnailPath",
+        "label": "Thumbnail URL"
+      },
+      {
+        "type": "text",
+        "key": "videoTitle",
+        "label": "Title"
+      },
+      {
+        "type": "text",
+        "key": "chaptersData",
+        "label": "Chapters"
+      },
+      {
+        "type": "text",
+        "key": "subtitle",
+        "label": "Subtitles"
+      },
+      {
+        "type": "boolean",
+        "key": "controlsEnabled",
+        "label": "Controls Enabled"
+      },
+      {
+        "type": "boolean",
+        "key": "preload",
+        "label": "Preload Video"
+      },
+      {
+        "type": "event",
+        "label": "On Time Update",
+        "key": "onTimeUpdate",
+        "context": [
+          {
+            "label": "Current Play Time",
+            "key": "videoSeconds"
+          }
+        ]
+      }
+    ]
+  }
+}
