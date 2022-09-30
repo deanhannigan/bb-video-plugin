@@ -1,2 +1,2 @@
 # bb-video-plugin
-Component plugin for embedding video in your Bubibase Apps!
+Plugin component for embedding video in your Budibase Apps!
